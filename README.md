@@ -24,9 +24,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<a href="https://www.loom.com/share/17c06690d74642fe87535eb390ad05c5">
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/17c06690d74642fe87535eb390ad05c5-with-play.gif">
-</a>
+<img src='./Kapture.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
