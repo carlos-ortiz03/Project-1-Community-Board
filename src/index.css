@@ -1,0 +1,96 @@
+#root {
+
+  font-size: 2rem;
+  min-width: 100vh;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Helvetica, Inter, Avenir, Arial, sans-serif;
+  color: black;
+  background-color: #aae1e4;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.App{
+  max-width: none;
+}
+
+img {
+  width: 80%;
+}
+
+h1 {
+  color: white;
+  -webkit-text-stroke: .25px black;
+  text-shadow: 1px 1px 10px black;
+}
+
+section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  background-color: white;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0px;
+  padding: 10px;
+}
+h4 {
+  font-size: .6rem;
+  margin: 0px;
+  padding: 0px 0px 25px;
+}
+button {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #root {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #root {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #root {
+    font-size: 1rem;
+  }
+}
