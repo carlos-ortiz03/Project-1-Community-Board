@@ -66,6 +66,16 @@ h4 {
 }
 button {
   margin-bottom: 20px;
+  background-color: #cc0806;
+  color: white;
+  border-radius: 5px;
+  border-width: .5px;
+  padding: 10px;
+  
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1280px) {
